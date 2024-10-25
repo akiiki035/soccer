@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+
+   <script>
+
+    
+
+function login() {
+    event.preventDefault()
+    var username = document.querySelector("#name").value;
+    var password = document.querySelector("#password").value;
+
+    alert ("To login successfully click okay!")
+
+    if (username == "chance" && password == "akiiki") {
+       
+        window.location.href = "index.html"; 
+    } else {
+        alert("provide the correct username or password");
+    }
+}
+
+
+
+function checkinput() {
+    document.querySelector("#submit_btn").disabled = false;
+}
+
+
+
+   </script>
+
+   
+</head>
+
+<div id="main_body">
+
+    <body>
+        <div id="bodycontent">
+     
+         <div class="login-container">
+             <h3> Login Here</h3>
+             <form action="" method="">
+                 <input type="text" id="name" placeholder="username"  onkeyup="checkinput()">
+                 <input type="password" id="password" placeholder="Password" onkeyup="checkinput()">
+                
+                 <button type="submit" id="submit_btn" onclick="login()" disabled = "true" >Submit</button>
+
+
+            
+            
+
+
+            
+             </form>
+    
+         </div>
+     
+        </div>
+     
+      
+        <link rel="stylesheet" href="STYLE.CSS">
+     </body>
+
+
+</div>
+
+
+
+</html>

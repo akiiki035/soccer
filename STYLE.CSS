@@ -1,0 +1,221 @@
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h1{color: rgb(255, 255, 255);
+    margin-left: 40px;;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;}
+body{
+   
+        font-family: Arial, sans-serif;
+        display: inline;
+        background-color:  rgb(241, 189, 0);
+        
+    }
+
+
+table{
+    border-collapse: collapse;
+    width: 38%;
+}
+
+table, td, th{border: solid 3px rgb(255, 255, 255);
+    padding: 7px;
+    width: 50%;
+}
+li{color: rgb(255, 255, 255);}
+
+p {
+    color: rgb(255, 255, 255) ;
+}
+
+
+li{
+    color: rgb(255, 255, 255);
+}
+
+IMG{
+   border-radius:  50px;
+   size: 20PX;
+}
+
+td{
+    text-align: center;
+}
+
+.inputcontrol{
+    width: 250px;
+    height: 30px;
+    border: 2px solid color(white);
+    border-radius: 7px;
+    
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    border: 2px solid color(white);
+    border-radius: 100px;
+}
+
+#main_body{
+    border: 3px rgb(255, 255, 255) solid;
+    padding: 10px;
+    margin: 20px;
+}
+
+#header{
+   
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    
+}
+
+#list_items li{
+    display: inline;
+    padding: 5px;
+    float: right;
+    border: rgb(255, 255, 255) solid;
+}
+
+#un_ordered li{
+    display: inline;
+    padding: 5px;
+    border: rgb(255, 255, 255) solid;
+    float: right;
+}
+
+#ordered li{
+    display: inline;
+    padding: 5px;
+    border: rgb(255, 255, 255) solid;
+    float: right;
+
+}
+
+
+#fixture li {
+display: inline;
+padding: 5px;
+border: rgb(255, 255, 255) solid;
+float: right;
+}
+
+
+
+
+#tags{
+    display: inline;
+    padding: 5px;
+    float: right;
+    border: rgb(255, 255, 255) solid;
+}
+th{
+    background-color: rgb(255, 255, 255);
+}
+
+ a href {
+    background-color:rgb(255, 255, 255);
+    text-size-adjust: 20px;
+}
+
+#dynamic_list{
+    float: inline-end;
+}
+
+
+#div1{
+    background-color: rgb(255, 255, 255);
+   
+    
+    
+}
+
+
+#immage{
+    font-size: 200%;
+    font-weight: bold;
+    border: 2px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+}
+
+
+
+
+#bodycontent {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    background-color: #ffffff;
+}
+.login-container {
+    background: rgb(187, 214, 169);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 
+    rgb(241, 189, 0);
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 100px;
+}
+
+
+
+h3{
+    color: #d83939;
+}
+
+
+
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ 
+
+
+      
+
+
